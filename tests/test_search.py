@@ -10,3 +10,15 @@ def test_add():
 
     #Assert
     assert actual == expected
+
+
+    def test_compare_names__input_is_not_string():
+        # Arrange
+        expected = False
+        test_input = 123
+
+        # Act
+        actual = compare_names(test_input)
+
+        #Assert
+        assert actual == expected
