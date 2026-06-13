@@ -1,4 +1,5 @@
 from my_app.search import add, compare_names
+
 def test_add():
     #Arrange
     expected = 3
