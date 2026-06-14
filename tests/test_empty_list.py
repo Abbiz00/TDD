@@ -5,7 +5,7 @@ def test_empty_list():
     expected = None
 
     # Act
-    actual   = empty_list()
+    actual   = empty_list ()
 
     # Assert
     assert actual == expected

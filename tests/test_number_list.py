@@ -9,6 +9,7 @@ def test_sum_list_5():
     actual = number_list(numbers)
 
     # Assert
+    assert number_list([1, 2, 3, 4, 5]) == 15
     assert actual == expected
 
 
@@ -20,6 +21,7 @@ def test_sum_list_2():
     actual = number_list(numbers)
 
     # Assert
+    assert number_list([5, 2]) == 7
     assert actual == expected
 
 
@@ -31,4 +33,7 @@ def test_sum_list_1():
     actual   = number_list(numbers)
 
     # Assert
+    assert number_list([5]) == 5
     assert actual == expected
+
+
